@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro base, expoente
+		inteiro resultado = 1
+
+		escreva (" A base é? ")
+		leia (base)
+		
+		escreva ("Qual o expoente? ")
+		leia (expoente)
+
+		para(inteiro i=0; i < expoente; i++){
+			resultado = resultado * base
+		}
+
+		escreva ("A resposta é ", resposta)
+		
+	}
+}
